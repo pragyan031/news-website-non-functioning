@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="responsive_login_page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <form action="testing_form.html">
+            <div id="top-top" class="full-width">
+                <img src="autonewslogo.png" alt="website Logo" id="weblogo">
+                <label for="nameemail">
+                    <h1>LOGIN PAGE</h1>
+                </label>
+            </div>
+            <div id="top-bottom" class="full-width flex">
+                <label for="nameemail">Email or mobile number</label>
+                <input type="text" name="nameemail" id="nameemail" class="TEXTINPUT" align="right"
+                    placeholder="Enter mobile number" required><br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="TEXTINPUT" align="right"
+                    placeholder="Enter the password" required><br>
+                <input type="submit" value="LOGIN" id="SUBMIT"><br>
+            </div>
+
+            <div id="bottom-top" class="full-width flex">
+                <div id="rmp">
+                <input type="checkbox" name="passremember" id="passremember" checked>
+                <label for="passremember" id="rememberpass">Remember my password</label><br><br>
+            </div>
+                <div id="createacc">
+                    <span id="s1">
+                        Don't have an account?
+                    </span>
+                    <span id="s2">
+                        <a href="full_web_signup_page.html" id="signup_page">create one</a>
+                    </span>
+                </div>
+            </div>
+            <div id="bottom-bottom" class="full-width flex">
+                <input type="reset" value="CANCEL" id="reset">
+                <a href="#" target="_blank" id="forgotpass">Forgot password</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

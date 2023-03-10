@@ -1,0 +1,175 @@
+body{
+    font-family: 'Abhaya Libre', serif;
+    background: url("bgim.jpg");
+    color: rgb(222, 222, 222);
+}
+.parents{
+    height: 20px;
+    /* border: 2px solid cyan; */
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+}
+#container{
+    background: url("blackbg.jpg");
+display: flex;
+flex-direction: column;
+height: 700px;
+width:500PX;
+/* border: 2px solid cyan; */
+background-color: black;
+padding: 50px ;
+margin: 50px auto;
+border-radius: 20px;
+box-shadow: 1px 1px 13px 1px #000000;
+}
+#google{
+    margin-top: 50px;
+}
+*{
+    color: white;
+}
+#weblogo{
+    height: 80px;
+    width: 160px;
+    margin: -30px auto 10px auto;
+    border: none;
+}
+#h1{
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    margin-top: -20px;
+    border: none;
+    font-weight: bold;
+}
+.TEXTINPUT{
+    display: block;
+    width: 90%;
+    color:black;
+    padding: 7px;
+    font-size: 12px;
+    margin: auto;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(232, 232, 232);
+}
+#signupform{
+    margin-right:auto ;
+    margin-left: auto;
+    margin-top: -20px;
+    height: 292px;
+    width: 260px;
+    /* padding: 20px; */
+    border: none;
+}
+.TEXTINPUT::placeholder{
+    font-style: italic;
+}
+#SIGNUP{
+    display: block;
+    width: 85px;
+    margin: 32px auto;
+   background: none;
+   text-align: center;
+   height: 35px;
+   font-family: 'Aboreto', cursive; 
+   border: none;
+}
+#slogin2 a{
+    text-decoration: none;
+    text-decoration: underline;
+    color: #5cb8ff;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+#slogin2 a:hover{
+    text-decoration: none;
+    color: #d6d6d6;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Abhaya Libre', serif;
+
+}
+#loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    border: none;
+}
+#googlelogo{
+    width: 23px;
+    position: relative;
+    bottom: 7px;
+}
+#s3{
+    position: relative;
+    bottom: 14px;
+    margin-left: 55px;
+    color: rgb(120, 0, 0);
+}
+#facelogo{
+    width: 23px;
+    border-radius: 80px;
+    position: relative;
+    bottom: 7px;
+}
+#s4{
+    position: relative;
+    bottom: 14px;
+    margin-left: 46px;
+    color: rgb(0 23 132);
+    }
+    #google{
+        height: 7px;
+        margin-top: -30px;
+        border-radius: 80px;
+        width: 264px;
+        position: relative;
+        left: 81px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+    }
+    #facebook{
+        height: 7px;
+        margin-top: 0px;
+        border-radius: 80px;
+        width: 264px;
+        position: relative;
+        left: 81px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+    }
+    #google:hover{
+        margin-top: -30px;
+        border-radius: 80px;
+        width: 264px;
+        position: relative;
+        left: 81px;
+        background-color: rgb(222, 222, 222);
+        cursor: pointer;
+    }
+    #facebook:hover{
+        margin-top: 0px;
+        border-radius: 80px;
+        width: 264px;
+        position: relative;
+        left: 81px;
+        background-color:rgb(222, 222, 222);
+        cursor: pointer;
+    }
+    #heading{
+        font-weight: 900;
+        color: rgb(222, 222, 222);
+    }
+    #SIGNUP:hover{
+        background: url("login.jpg"); 
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #slogin1{
+font-size: 15px;
+    }
